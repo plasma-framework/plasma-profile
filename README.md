@@ -19,3 +19,12 @@ removed. :)
 <content>...</content>  
 <content>...remove me...</content>  
 </eAnnotations>
+
+In fact the more time the profile is saved the more <content>...</content> sections
+are not only added by Papyrus links them together. So when one section is removed
+invalid references can occur. 
+
+The best approach seems to be removing all the Eclipse specific annotations entirely from
+the profile including diagrams unfortunately, then saving/registering it, resulting
+in one single valid <content> section. 
+
